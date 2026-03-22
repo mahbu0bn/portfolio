@@ -14,12 +14,12 @@ const Landing: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center brightness-[0.95] contrast-[1.05]"
         style={{
-          backgroundImage: `url('/images/landing.jpg')`,
+          backgroundImage: `url('/images/landing2.png')`,
         }}
       />
 
       {/* Overlay - Increased opacity for better contrast */}
-      <div className="absolute inset-0 bg-white/90" />
+      {/* <div className="absolute inset-0 bg-white/90" /> */}
 
       {/* Content Container - Adjusted for mobile */}
       <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-neutral-900">
