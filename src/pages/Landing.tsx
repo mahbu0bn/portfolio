@@ -19,7 +19,7 @@ const Landing: React.FC = () => {
       />
 
       {/* Overlay - Increased opacity for better contrast */}
-      {/* <div className="absolute inset-0 bg-white/90" /> */}
+      <div className="absolute inset-0 bg-white/13" />
 
       {/* Content Container - Adjusted for mobile */}
       <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-neutral-900">
@@ -28,9 +28,9 @@ const Landing: React.FC = () => {
           initial={{opacity: 0, y: 20}}
           animate={{opacity: 1, y: 0}}
           transition={{duration: 0.8, delay: 0.3, ease: "easeOut"}}
-          aria-label="Mahboube Najafi"
+          aria-label="Mahboube"
         >
-          MAHBOUBE NAJAFI
+          MAHBOUBE
         </motion.h1>
 
         <motion.p

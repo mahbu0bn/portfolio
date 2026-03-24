@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
                   className="text-3xl font-light tracking-wide transition-colors text-neutral-900 hover:text-neutral-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  Mahboube Najafi
+                  Mahboube Art Studio
                 </Link>
 
                 <motion.div
@@ -115,7 +115,7 @@ const Navbar: React.FC = () => {
               </div>
 
               <div className="mt-auto">
-                <div className="flex flex-col space-y-8">
+                <div className="flex flex-col space-y-4">
                   <Link
                     to="/about"
                     className={`text-xl tracking-wide transition-colors ${
@@ -177,11 +177,11 @@ const NavbarContent: React.FC<{
         className="text-2xl font-light tracking-wide transition-colors text-neutral-900 hover:text-neutral-600"
         onClick={onLinkClick}
       >
-        Mahboube Najafi
+        Mahboube Art Studio
       </Link>
 
       <motion.div
-        className="text-sm text-neutral-500 uppercase tracking-[0.2em] mb-12 mt-2"
+        className="text-sm text-neutral-500 uppercase tracking-[0.2em] mb-12 mt-2 font-sans"
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{delay: 0.2}}
@@ -189,7 +189,7 @@ const NavbarContent: React.FC<{
         Contemporary Calligraphy
       </motion.div>
 
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-6 font-sans">
         {timelineLinks.map((link, index) => (
           <motion.div
             key={link.path}
@@ -218,7 +218,7 @@ const NavbarContent: React.FC<{
         animate={{opacity: 1}}
         transition={{delay: 0.6}}
       >
-        <div className="flex flex-col space-y-6 text-sm">
+        <div className="flex flex-col space-y-2 font-sans text-sm">
           <Link
             to="/about"
             className={`tracking-wide transition-colors ${

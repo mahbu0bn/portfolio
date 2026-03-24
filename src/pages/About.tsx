@@ -42,10 +42,20 @@ const About: React.FC = () => {
                 Mahboube Najafi
               </h2>
               <p className="leading-relaxed text-neutral-600">
-                As a contemporary calligrapher, I play with words and forms,
-                creating a visual language that connects and supprises. Each
-                piece can be experienced in multiple ways, inviting the viewer
-                to find their own words.
+                As a contemporary calligrapher, I explore the dialogue between
+                words and form, shaping a visual language that connects and
+                invites curiosity. Each piece is open to interpretation,
+                offering multiple ways to be seen and understood.
+              </p>
+              <p className="leading-relaxed text-neutral-600">
+                Imperfection is part of the process—no two trees are alike, just
+                as no stroke or letter can ever be repeated in the same way. A
+                single idea can take many forms, yet its meaning is always
+                shaped by the viewer’s perspective.
+              </p>
+              <p className="leading-relaxed text-neutral-600">
+                My work is not complete until it is experienced. It exists in
+                the space between the piece and the person who engages with it.
               </p>
             </div>
           </motion.div>
@@ -69,9 +79,9 @@ const About: React.FC = () => {
             }}
             className="space-y-4"
           >
-            <h2 className="text-2xl font-light text-neutral-800">
+            {/* <h2 className="text-2xl font-light text-neutral-800">
               Artistic Philosophy
-            </h2>
+            </h2> */}
             <p className="leading-relaxed text-neutral-600">
               In my work, imperfection is natural-just as no two trees are the
               same, no stroke or letter is identical. Many words can describe a
@@ -131,9 +141,9 @@ const About: React.FC = () => {
             }}
             className="space-y-4"
           >
-            <h2 className="text-2xl font-light text-neutral-800">
+            {/* <h2 className="text-2xl font-light text-neutral-800">
               Get in Touch
-            </h2>
+            </h2> */}
             <p className="leading-relaxed text-neutral-600">
               For collaborations, commissions, or inquiries:
             </p>

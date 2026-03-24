@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
           </motion.div> */}
 
           {/* Location */}
-          <motion.div
+          {/* <motion.div
             initial={{
               opacity: 0,
               y: 50,
@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
               <br />
               Available for projects worldwide
             </p>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </motion.div>
