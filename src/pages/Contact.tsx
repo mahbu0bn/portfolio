@@ -1,5 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
+import Form from "../components/Form";
 
 const Contact: React.FC = () => {
   return (
@@ -73,6 +74,26 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-light text-neutral-800">Phone</h3>
               <p className="text-neutral-600">+1 (555) 123-4567</p>
             </div> */}
+          </motion.div>
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 50,
+              scale: 0.95,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+              scale: 1,
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.3,
+              ease: [0.215, 0.61, 0.355, 1],
+            }}
+            className="grid gap-8 md:grid-cols-2"
+          >
+            <Form />
           </motion.div>
 
           {/* Social Media */}
