@@ -11,15 +11,23 @@ const Landing: React.FC = () => {
       transition={{duration: 1.2, ease: "easeOut"}}
     >
       {/* Background Image */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center brightness-[0.95] contrast-[1.05]"
         style={{
-          backgroundImage: `url('/images/landing2.png')`,
+          backgroundImage: `url('/images/animated.gif')`,
         }}
-      />
+      /> */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover brightness-[0.95] contrast-[1.05]"
+        autoPlay
+        muted
+        playsInline
+      >
+        <source src="/images/animated.mp4" type="video/mp4" />
+      </video>
 
       {/* Overlay - Increased opacity for better contrast */}
-      <div className="absolute inset-0 bg-white/13" />
+      <div className="absolute inset-0 bg-white/15" />
 
       {/* Content Container - Adjusted for mobile */}
       <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-neutral-900">
