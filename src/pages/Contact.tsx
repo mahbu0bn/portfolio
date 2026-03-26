@@ -69,6 +69,7 @@ const Contact: React.FC = () => {
               >
                 mahboube_najafi@yahoo.com
               </a>{" "}
+              <p className="text-neutral-600">Based in Italy</p>
             </div>
             {/* <div className="space-y-2">
               <h3 className="text-xl font-light text-neutral-800">Phone</h3>

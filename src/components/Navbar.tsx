@@ -218,7 +218,7 @@ const NavbarContent: React.FC<{
         animate={{opacity: 1}}
         transition={{delay: 0.6}}
       >
-        <div className="flex flex-col space-y-2 font-sans text-sm">
+        <div className="flex flex-col font-sans text-sm">
           <Link
             to="/about"
             className={`tracking-wide transition-colors ${
