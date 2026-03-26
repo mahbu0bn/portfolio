@@ -47,7 +47,7 @@ const About: React.FC = () => {
                 invites curiosity. Each piece is open to interpretation,
                 offering multiple ways to be seen and understood.
               </p>
-              <p className="leading-relaxed text-neutral-600">
+              {/* <p className="leading-relaxed text-neutral-600">
                 Imperfection is part of the process—no two trees are alike, just
                 as no stroke or letter can ever be repeated in the same way. A
                 single idea can take many forms, yet its meaning is always
@@ -56,7 +56,7 @@ const About: React.FC = () => {
               <p className="leading-relaxed text-neutral-600">
                 My work is not complete until it is experienced. It exists in
                 the space between the piece and the person who engages with it.
-              </p>
+              </p> */}
             </div>
           </motion.div>
 
