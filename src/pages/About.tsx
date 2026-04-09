@@ -1,10 +1,11 @@
 import React from "react";
 import {motion} from "framer-motion";
+import Copyright from "../components/Copyright";
 
 const About: React.FC = () => {
   return (
     <motion.div
-      className="md:pl-64 min-h-screen bg-[#f5f5f0]"
+      className="md:pl-64 min-h-screen bg-[#f5f5f0] justify-between flex flex-col"
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{duration: 0.7}}
@@ -58,6 +59,7 @@ const About: React.FC = () => {
           </motion.div>
         </div>
       </div>
+      <Copyright />
     </motion.div>
   );
 };

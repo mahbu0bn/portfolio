@@ -1,6 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 import Form from "../components/Form";
+import Copyright from "../components/Copyright";
 
 const Contact: React.FC = () => {
   return (
@@ -71,10 +72,6 @@ const Contact: React.FC = () => {
               </a>{" "}
               <p className="text-neutral-600">Based in Italy</p>
             </div>
-            {/* <div className="space-y-2">
-              <h3 className="text-xl font-light text-neutral-800">Phone</h3>
-              <p className="text-neutral-600">+1 (555) 123-4567</p>
-            </div> */}
           </motion.div>
           <motion.div
             initial={{
@@ -96,83 +93,9 @@ const Contact: React.FC = () => {
           >
             <Form />
           </motion.div>
-
-          {/* Social Media */}
-          {/* <motion.div
-            initial={{ 
-              opacity: 0,
-              y: 50,
-              scale: 0.95
-            }}
-            animate={{ 
-              opacity: 1,
-              y: 0,
-              scale: 1
-            }}
-            transition={{
-              duration: 0.6,
-              delay: 0.45,
-              ease: [0.215, 0.61, 0.355, 1]
-            }}
-            className="space-y-4"
-          >
-            <h2 className="text-2xl font-light text-neutral-800">Social Media</h2>
-            <div className="flex space-x-8">
-              <a 
-                href="https://instagram.com/yeshaya_" 
-                className="transition-colors duration-300 text-neutral-600 hover:text-neutral-900"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-              <a 
-                href="https://www.facebook.com/share/12C8wx5XrYM/?mibextid=wwXIfr" 
-                className="transition-colors duration-300 text-neutral-600 hover:text-neutral-900"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a 
-                href="#" 
-                className="transition-colors duration-300 text-neutral-600 hover:text-neutral-900"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-            </div>
-          </motion.div> */}
-
-          {/* Location */}
-          {/* <motion.div
-            initial={{
-              opacity: 0,
-              y: 50,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            transition={{
-              duration: 0.6,
-              delay: 0.6,
-              ease: [0.215, 0.61, 0.355, 1],
-            }}
-            className="space-y-4"
-          >
-            <h2 className="text-2xl font-light text-neutral-800">Location</h2>
-            <p className="leading-relaxed text-neutral-600">
-              Based in Turin, Italy
-              <br />
-              Available for projects worldwide
-            </p>
-          </motion.div> */}
         </div>
       </div>
+      <Copyright />
     </motion.div>
   );
 };

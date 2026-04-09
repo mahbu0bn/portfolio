@@ -1,6 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 import Masonry from "react-masonry-css";
+import Copyright from "../components/Copyright";
 
 const images = [
   {
@@ -116,6 +117,7 @@ const PersonalProjects: React.FC = () => {
           ))}
         </Masonry>
       </div>
+      <Copyright />
     </motion.div>
   );
 };
