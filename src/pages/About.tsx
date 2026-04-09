@@ -35,7 +35,7 @@ const About: React.FC = () => {
             <img
               src="/images/profile.jpg"
               alt="Mahboube Najafi"
-              className="object-cover w-64 h-64"
+              className="object-cover w-72 h-72"
             />
             <div className="space-y-4">
               <h2 className="text-2xl font-light text-neutral-800">
@@ -47,117 +47,13 @@ const About: React.FC = () => {
                 invites curiosity. Each piece is open to interpretation,
                 offering multiple ways to be seen and understood.
               </p>
-              {/* <p className="leading-relaxed text-neutral-600">
-                Imperfection is part of the process—no two trees are alike, just
-                as no stroke or letter can ever be repeated in the same way. A
-                single idea can take many forms, yet its meaning is always
-                shaped by the viewer’s perspective.
+              <p>
+                In my work, imperfection is embraced as something natural-just
+                as no two trees are ever the same, no stroke or letter can be
+                identical. A single concept can be expressed through many words,
+                yet it is always the viewer's perspective that ultimately shapes
+                its meaning.
               </p>
-              <p className="leading-relaxed text-neutral-600">
-                My work is not complete until it is experienced. It exists in
-                the space between the piece and the person who engages with it.
-              </p> */}
-            </div>
-          </motion.div>
-
-          {/* Philosophy Section */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: 50,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            transition={{
-              duration: 0.6,
-              delay: 0.3,
-              ease: [0.215, 0.61, 0.355, 1],
-            }}
-            className="space-y-4"
-          >
-            {/* <h2 className="text-2xl font-light text-neutral-800">
-              Artistic Philosophy
-            </h2> */}
-            <p className="leading-relaxed text-neutral-600">
-              In my work, imperfection is natural-just as no two trees are the
-              same, no stroke or letter is identical. Many words can describe a
-              single concept, yet each viewer's perspective shapes its meaning.
-              My art is never solitary; it comes alive only through those who
-              engage with it.
-            </p>
-          </motion.div>
-
-          {/* Process Section */}
-          {/* <motion.div
-            initial={{
-              opacity: 0,
-              y: 50,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            transition={{
-              duration: 0.6,
-              delay: 0.45,
-              ease: [0.215, 0.61, 0.355, 1],
-            }}
-            className="space-y-4"
-          >
-            <h2 className="text-2xl font-light text-neutral-800">
-              Creative Process
-            </h2>
-            <p className="leading-relaxed text-neutral-600">
-              My creative process combines traditional photographic techniques
-              with innovative digital manipulation, allowing me to construct
-              surreal narratives that challenge the boundaries of conventional
-              photography. Each project begins with a concept that evolves
-              through experimentation and intuitive exploration.
-            </p>
-          </motion.div> */}
-
-          {/* Contact Section */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: 50,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            transition={{
-              duration: 0.6,
-              delay: 0.6,
-              ease: [0.215, 0.61, 0.355, 1],
-            }}
-            className="space-y-4"
-          >
-            {/* <h2 className="text-2xl font-light text-neutral-800">
-              Get in Touch
-            </h2> */}
-            <p className="leading-relaxed text-neutral-600">
-              For collaborations, commissions, or inquiries:
-            </p>
-            <div className="space-y-2">
-              <p className="text-neutral-600">
-                Email:{" "}
-                <a
-                  href="mailto:mahboube_najafi@yahoo.com"
-                  className="duration-200 hover:text-blue-600"
-                >
-                  mahboube_najafi@yahoo.com
-                </a>
-              </p>
-              {/* <p className="text-neutral-600">Instagram: @sebastiandenovak</p> */}
             </div>
           </motion.div>
         </div>
