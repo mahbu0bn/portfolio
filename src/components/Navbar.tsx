@@ -138,24 +138,6 @@ const Navbar: React.FC = () => {
                   >
                     Contact
                   </Link>
-                  <div className="flex pt-8 space-x-8 text-neutral-500">
-                    <a
-                      href="https://instagram.com/yeshaya_"
-                      className="text-sm tracking-wide transition-colors hover:text-neutral-800"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Instagram
-                    </a>
-                    <a
-                      href="https://www.facebook.com/share/12C8wx5XrYM/?mibextid=wwXIfr"
-                      className="text-sm tracking-wide transition-colors hover:text-neutral-800"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Facebook
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
