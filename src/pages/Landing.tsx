@@ -9,7 +9,7 @@ const Landing: React.FC = () => {
   };
   return (
     <motion.div
-      className="relative flex flex-col items-center justify-center w-screen h-screen mx-20 overflow-hidden"
+      className="relative flex flex-col justify-center w-screen h-screen overflow-hidden md:items-center"
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{duration: 1.2, ease: "easeOut"}}
@@ -17,17 +17,11 @@ const Landing: React.FC = () => {
       <div className="relative flex items-center justify-center w-full overflow-hidden h-max">
         {/* Text */}
         <div
-          className="z-50 flex flex-col items-end justify-center w-3/5 min-h-[60vh] overflow-hidden bg-cover bg-right bg-no-repeat"
+          className="z-50 flex flex-col items-end justify-center w-full md:w-3/5 min-h-[60vh] overflow-hidden bg-cover bg-no-repeat"
           style={{
             backgroundImage: "url('/images/homepage.png')",
           }}
         >
-          {/* Background Image */}
-          {/* <img
-            src="/images/homepage.png"
-            alt="Background"
-            className="fixed w-[75%] rotate-90 -left-[100px] top-1/2 -translate-y-1/2"
-          /> */}
           <motion.h1
             initial={{opacity: 0, y: 15}}
             animate={{opacity: 1, y: 0}}
@@ -39,7 +33,7 @@ const Landing: React.FC = () => {
             <span>ART</span>
           </motion.h1>
         </div>
-        <div className="w-1/5">
+        <div className="md:w-1/5">
           <motion.h1
             initial={{opacity: 0, y: 15}}
             animate={{opacity: 1, y: 0}}
@@ -53,7 +47,7 @@ const Landing: React.FC = () => {
         </div>
       </div>
       <motion.p
-        className="text-base md:text-xl tracking-[0.3em] mt-2 md:mt-4 font-normal text-black w-4/5 text-end"
+        className="text-base md:text-xl tracking-[0.3em] mt-2 md:mt-4 font-normal text-black md:w-4/5 md:text-end text-center"
         initial={{opacity: 0, y: 15}}
         animate={{opacity: 1, y: 0}}
         transition={{duration: 0.8, delay: 0.5, ease: "easeOut"}}
