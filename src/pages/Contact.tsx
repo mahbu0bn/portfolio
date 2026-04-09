@@ -6,7 +6,7 @@ import Copyright from "../components/Copyright";
 const Contact: React.FC = () => {
   return (
     <motion.div
-      className="md:pl-64 min-h-screen bg-[#f5f5f0]"
+      className="md:pl-64 min-h-screen bg-[#f5f5f0] justify-between flex flex-col"
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       transition={{duration: 0.7}}
