@@ -47,7 +47,7 @@ const Landing: React.FC = () => {
         </div>
       </div>
       <motion.p
-        className="text-base md:text-xl tracking-[0.3em] mt-2 md:mt-4 font-normal text-black md:w-4/5 md:text-end text-center"
+        className="text-sm md:text-xl tracking-[0.3em] mt-2 md:mt-4 font-normal text-black md:w-4/5 md:text-end text-center"
         initial={{opacity: 0, y: 15}}
         animate={{opacity: 1, y: 0}}
         transition={{duration: 0.8, delay: 0.5, ease: "easeOut"}}
