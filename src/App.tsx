@@ -1,11 +1,9 @@
 import {Routes, Route} from "react-router-dom";
 import Landing from "./pages/Landing";
 import PersonalProjects from "./pages/PersonalProjects";
-// import CommissionedWork from "./pages/CommissionedWork";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-// import Favorites from "./pages/Favorites";
 import ScrollToTop from "./utils/ScrollToTop";
 function App() {
   return (
@@ -19,10 +17,8 @@ function App() {
             <ScrollToTop />
             <Routes>
               <Route path="/selected" element={<PersonalProjects />} />
-              {/* <Route path="/commissioned" element={<CommissionedWork />} /> */}
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              {/* <Route path="/favorites" element={<Favorites />} /> */}
             </Routes>
           </div>
         }
