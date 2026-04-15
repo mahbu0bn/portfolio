@@ -47,6 +47,13 @@ const images = [
     description:
       "Exploring the roots of all things and the hidden connections within",
   },
+  {
+    src: "/images/07.png",
+    alt: "Personal project 7",
+    aspectRatio: 0.724,
+    title: "Respiro",
+    description: "",
+  },
 ];
 
 const breakpointColumns = {
