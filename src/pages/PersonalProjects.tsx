@@ -50,7 +50,7 @@ const images = [
   {
     src: "/images/07.png",
     alt: "Personal project 7",
-    aspectRatio: 0.68,
+    aspectRatio: 0.682,
     title: "Respiro",
     description: "",
   },
